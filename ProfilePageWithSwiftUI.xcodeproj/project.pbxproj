@@ -399,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manashlifestyle.purplle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niraj.paul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Provisioning_Dev;
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -434,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manashlifestyle.purplle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niraj.paul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Provisioning_Dev;
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
