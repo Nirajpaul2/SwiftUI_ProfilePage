@@ -1,0 +1,68 @@
+[
+  {
+    "id" : 1,
+    "name" : "Aloe Almonds hair Oil (100 g)",
+    "price" : "549",
+    "discountPrice" : "428",
+    "percentageDiscount" : "22% off",
+    "overAllRating" : "4.3",
+    "noOfPersonToRate" : "403",
+    "offer" : "4",
+    "image" : "almond"
+  },
+  {
+    "id" : 2,
+    "name" : "Toilette best perfume for the man and women (100 g)",
+    "price" : "1000",
+    "discountPrice" : "600",
+    "percentageDiscount" : "32% off",
+    "overAllRating" : "3",
+    "noOfPersonToRate" : "43",
+    "offer" : "Free Gift",
+    "image" : "toilette"
+  },
+  {
+    "id" : 3,
+    "name" : "Aloe Almonds hair Oil (100 g)",
+    "price" : "5490",
+    "discountPrice" : "5390",
+    "percentageDiscount" : "5% off",
+    "overAllRating" : "5",
+    "noOfPersonToRate" : "203",
+    "offer" : "2",
+    "image" : "products-flattened"
+  },
+  {
+    "id" : 4,
+    "name" : "Lakme Lipstic in the best price for the all the girls",
+    "price" : "59",
+    "discountPrice" : "50",
+    "percentageDiscount" : "9% off",
+    "overAllRating" : "5",
+    "noOfPersonToRate" : "43",
+    "offer" : "4",
+    "image" : "pinklipstick"
+  },
+  {
+    "id" : 5,
+    "name" : "park-avenue a perfume for all the man",
+    "price" : "549",
+    "discountPrice" : "428",
+    "percentageDiscount" : "22% off",
+    "overAllRating" : "4.3",
+    "noOfPersonToRate" : "403",
+    "offer" : "4",
+    "image" : "park-avenue"
+  },
+  {
+    "id" : 6,
+    "name" : "Aloe Almonds hair Oil (100 g)",
+    "price" : "549",
+    "discountPrice" : "428",
+    "percentageDiscount" : "22% off",
+    "overAllRating" : "4.3",
+    "noOfPersonToRate" : "403",
+    "offer" : "4",
+    "image" : "almond"
+  }
+]
