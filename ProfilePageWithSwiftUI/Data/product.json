@@ -7,7 +7,7 @@
     "percentageDiscount" : "22% off",
     "overAllRating" : "4.3",
     "noOfPersonToRate" : "403",
-    "offer" : "4",
+    "offer" : "4 offers",
     "image" : "almond"
   },
   {
@@ -23,13 +23,13 @@
   },
   {
     "id" : 3,
-    "name" : "Aloe Almonds hair Oil (100 g)",
+    "name" : "Aloe Almonds hair Almonds hair Almonds hair Almonds hair Oil (100 g)",
     "price" : "5490",
     "discountPrice" : "5390",
     "percentageDiscount" : "5% off",
     "overAllRating" : "5",
     "noOfPersonToRate" : "203",
-    "offer" : "2",
+    "offer" : "2 offers",
     "image" : "products-flattened"
   },
   {
@@ -40,7 +40,7 @@
     "percentageDiscount" : "9% off",
     "overAllRating" : "5",
     "noOfPersonToRate" : "43",
-    "offer" : "4",
+    "offer" : "5 offers",
     "image" : "pinklipstick"
   },
   {
@@ -51,7 +51,7 @@
     "percentageDiscount" : "22% off",
     "overAllRating" : "4.3",
     "noOfPersonToRate" : "403",
-    "offer" : "4",
+    "offer" : "1 offers",
     "image" : "park-avenue"
   },
   {
@@ -62,7 +62,7 @@
     "percentageDiscount" : "22% off",
     "overAllRating" : "4.3",
     "noOfPersonToRate" : "403",
-    "offer" : "4",
+    "offer" : "4 offers",
     "image" : "almond"
   }
 ]

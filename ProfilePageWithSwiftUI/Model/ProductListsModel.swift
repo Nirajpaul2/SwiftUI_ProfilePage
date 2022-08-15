@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct ProductList: Codable, Identifiable {
-    let id: String
+struct Product: Codable, Identifiable {
+    let id: Int
     let name: String
     let price: String
     let discountPrice: String

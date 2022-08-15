@@ -19,7 +19,7 @@ extension View {
                 } label: {
                     Image(systemName: "arrow.left").foregroundColor(.black)
                 }
-                Image("purplleLogo")
+                //Image("purplleLogo")
                 
             }, trailing:
                 HStack {

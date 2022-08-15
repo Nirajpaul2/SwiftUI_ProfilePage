@@ -17,7 +17,8 @@ struct ProfileView: View {
     //MARK: Body
     var body: some View {
         NavigationView {
-            VStack(){
+            VStack() {
+             
                 Divider()
                 /// Geometry is similar like UIScreen.main.bounds
                 GeometryReader { geometry in

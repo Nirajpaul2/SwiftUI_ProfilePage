@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+@available(iOS 14.0, *)
 @main
 struct ProfilePageWithSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            TabsView()
+            ProductListingView()
         }
     }
 }
