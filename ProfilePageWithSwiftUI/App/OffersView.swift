@@ -2,14 +2,25 @@
 //  OffersView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 03/08/22.
+//  Created by Niraj on 03/08/22.
 //
 
 import SwiftUI
 
 struct OffersView: View {
+    
     var body: some View {
-        Text("Offer View")
+        VStack {
+            
+            CustomViewTest(bundle: .main, nibName: "CustomView") { view in
+                
+            }
+            .frame(height: 50)
+        
+            Spacer()
+        }
+       
+      
     }
 }
 

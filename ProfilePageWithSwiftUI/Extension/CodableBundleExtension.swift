@@ -2,7 +2,7 @@
 //  CodableBundleExtension.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 04/08/22.
+//  Created by Niraj on 04/08/22.
 //
 
 import Foundation

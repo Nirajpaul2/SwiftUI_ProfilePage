@@ -2,7 +2,7 @@
 //  LoginButton.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 29/07/22.
+//  Created by Niraj on 29/07/22.
 //
 
 import SwiftUI

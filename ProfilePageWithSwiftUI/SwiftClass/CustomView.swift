@@ -2,7 +2,7 @@
 //  CustomView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 11/08/22.
+//  Created by Niraj on 11/08/22.
 //
 
 import UIKit
@@ -18,3 +18,5 @@ class CustomView: UIView {
    
 
 }
+
+

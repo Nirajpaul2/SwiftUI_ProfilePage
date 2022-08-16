@@ -2,15 +2,17 @@
 //  PriceAndDiscountView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 09/08/22.
+//  Created by Niraj on 09/08/22.
 //
 
 import SwiftUI
 
 struct PriceAndDiscountView: View {
+    //MARK: - Property
     
     let product: Product
     
+    //MARK: - Body
     var body: some View {
         
         HStack(spacing: 5) {
@@ -39,6 +41,7 @@ struct PriceAndDiscountView: View {
     }
 }
 
+//MARK: - Preview
 struct PriceAndDiscountView_Previews: PreviewProvider {
     static var previews: some View {
         PriceAndDiscountView(product: products[1])

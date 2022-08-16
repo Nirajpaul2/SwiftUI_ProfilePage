@@ -2,7 +2,7 @@
 //  ActivityIndi.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 11/08/22.
+//  Created by Niraj on 11/08/22.
 //
 
 import Foundation
@@ -11,16 +11,22 @@ import SwiftUI
 
 // How to wrap a custom UIView for SwiftUI
 // https://www.hackingwithswift.com/quick-start/swiftui/how-to-wrap-a-custom-uiview-for-swiftui
+// https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit
+// https://sarunw.com/posts/uikit-in-swiftui/
+
 
 // Example 1
+
+///UIViewRepresentable(Protocol):  A wrapper for a UIKit view that you use to integrate that view into your SwiftUI view hierarchy.
 struct ActivityIndicator: UIViewRepresentable {
     
+    //makeUIView() method responsible to return view.
     func makeUIView(context: Context) -> UIActivityIndicatorView {
         let v = UIActivityIndicatorView()
         
         return v
     }
-    
+    //updateUIView() method that will be called whenever the data for the view has changed.
     func updateUIView(_ activityIndicator: UIActivityIndicatorView, context: Context) {
         activityIndicator.startAnimating()
     }
@@ -28,11 +34,11 @@ struct ActivityIndicator: UIViewRepresentable {
 
 
 // Example 2
+
 struct MyUILabel: UIViewRepresentable {
-    
     var text: String
 
-
+    //makeUIView() method responsible to return view.
     func makeUIView(context: UIViewRepresentableContext<MyUILabel>)
                                  -> UILabel {
             let myLabel = UILabel()
@@ -40,30 +46,26 @@ struct MyUILabel: UIViewRepresentable {
             return myLabel
         }
     
+    //updateUIView() method that will be called whenever the data for the view has changed.
     func updateUIView(_ uiView: UILabel,
                         context: UIViewRepresentableContext<MyUILabel>) {
             // Perform any update tasks if necessary
     }
 }
 
-// Example
+// Example 3
+
 struct CustomViewTest<T: UIView>: UIViewRepresentable {
 
     let view: T
     
-    init(
-        view: T,
-        config: ((T)-> Void)?
-    ) {
+    init(view: T,config: ((T)-> Void)?) {
         self.view = view
         config?(view)
     }
     
-    init(
-        bundle: Bundle,
-        nibName: String,
-        config: ((T)-> Void)?
-    ) {
+    init( bundle: Bundle, nibName: String, config: ((T)-> Void)?) {
+        
         let nib = UINib(nibName: nibName, bundle: bundle)
         let viewStack = nib.instantiate(withOwner: nil, options: nil)
         
@@ -80,16 +82,5 @@ struct CustomViewTest<T: UIView>: UIViewRepresentable {
     func updateUIView(_ uiView: UIViewType, context: Context) {
         
     }
-
-    
-//    func makeUIView(context: UIViewRepresentableContext<CustomViewTest>)
-//                                 -> UIView {
-//            let myLabel = CustomView()
-//            return myLabel
-//        }
-//
-//    func updateUIView(_ uiView: UIView,
-//                        context: UIViewRepresentableContext<CustomViewTest>) {
-//            // Perform any update tasks if necessary
-//    }
 }
+

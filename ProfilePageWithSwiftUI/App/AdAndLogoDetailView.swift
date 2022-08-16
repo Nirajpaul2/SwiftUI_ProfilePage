@@ -2,7 +2,7 @@
 //  AdAndLogoDetailView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 10/08/22.
+//  Created by Niraj on 10/08/22.
 //
 
 import SwiftUI

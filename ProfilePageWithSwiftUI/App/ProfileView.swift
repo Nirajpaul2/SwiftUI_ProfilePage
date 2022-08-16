@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 26/07/22.
+//  Created by Niraj on 26/07/22.
 //
 
 //https://stackoverflow.com/a/71188504/3475875

@@ -2,7 +2,7 @@
 //  BannerImageView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 08/08/22.
+//  Created by Niraj on 08/08/22.
 //
 
 import SwiftUI

@@ -2,13 +2,15 @@
 //  ListingButtonView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 09/08/22.
+//  Created by Niraj on 09/08/22.
 //
 
 import SwiftUI
 
 struct ListingAddToCartView: View {
+    //MARK: - Property
     
+    //MARK: - Body
     var body: some View {
         HStack(alignment: .center, spacing: 10) {
             Button {} label: {
@@ -31,10 +33,11 @@ struct ListingAddToCartView: View {
                     .foregroundColor(.pinkColor.opacity(0.2))
                     .frame(width: 25, height: 25)
             }
-        }
+        }// : HStack
     }
 }
 
+//MARK: - Preview
 struct ListingButtonView_Previews: PreviewProvider {
     static var previews: some View {
         ListingAddToCartView()

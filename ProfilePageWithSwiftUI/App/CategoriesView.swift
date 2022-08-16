@@ -2,7 +2,7 @@
 //  CategoriesView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 03/08/22.
+//  Created by Niraj on 03/08/22.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  ProfilePageWithSwiftUIApp.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 26/07/22.
+//  Created by Niraj on 26/07/22.
 //
 
 import SwiftUI
@@ -12,7 +12,7 @@ import SwiftUI
 struct ProfilePageWithSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ProductListingView()
+            BrandsView()
         }
     }
 }

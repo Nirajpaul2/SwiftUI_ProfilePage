@@ -2,10 +2,12 @@
 //  Constant.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 08/08/22.
+//  Created by Niraj on 08/08/22.
 //
 
 import SwiftUI
+import UIKit
+import Foundation
 
 // Data
 
@@ -19,3 +21,14 @@ let rowSpacing: CGFloat = 1
 var gridLayout: [GridItem] {
     return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
 }
+
+
+
+
+class Utility {
+    func GetData() -> String{
+        return "hello world"
+    }
+}
+
+

@@ -2,7 +2,7 @@
 //  Color+Extension.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 27/07/22.
+//  Created by Niraj on 27/07/22.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  RatingView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 09/08/22.
+//  Created by Niraj on 09/08/22.
 //
 
 import SwiftUI

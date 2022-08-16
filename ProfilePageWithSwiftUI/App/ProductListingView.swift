@@ -2,7 +2,7 @@
 //  HomeView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 03/08/22.
+//  Created by Niraj on 03/08/22.
 //
 ///  NavigationView {
 //VStack() {
@@ -24,15 +24,17 @@ struct ProductListingView: View {
     //MARK: - Body
     var body: some View {
         // NavBar
-        NavigationView {
+      //  NavigationView {
             VStack {
                 
-                Divider()
-                
+              //  Divider()
+                CustomViewTest(bundle: .main, nibName: "CustomView") { view in
+                    
+                }
+                .frame(height: 50)
+            
                 //ScrollView
                 ScrollView(.vertical, showsIndicators: false) {
-                    VStack(spacing: 0) {
-                  
                         LazyVGrid(columns: gridLayout, spacing: 1) {
                             ForEach(products) { product in
                                     HStack {
@@ -43,17 +45,11 @@ struct ProductListingView: View {
                             .frame(height: 390)
                         } //: Grid
                         .background(Color.lightGray.opacity(0.2))
-                    } //: VStack
                 } // Scroll
             } //: VStack
         
-            //MARK: Navigation Bar
-            .appBar(title:"Hello Title", trillingBarIcons: ["search","cart","profile"]) {
-            } searchButtonAction: {
-            } myCartButtonAction: {
-            } profileButtonAction: {
-            }
-        } //: Navigation
+          
+      //  } //: Navigation
 
     }
 }
@@ -64,3 +60,16 @@ struct HomeView_Previews: PreviewProvider {
         ProductListingView()
     }
 }
+
+
+/*
+               MyUILabel(text: "hiiii")
+                     .frame(height: 40)
+                     .padding()
+ 
+ CustomViewTest(bundle: .main, nibName: "CustomView") { view in
+     
+ }
+ .frame(height: 50)
+ 
+ */

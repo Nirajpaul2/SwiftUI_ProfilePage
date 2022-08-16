@@ -2,7 +2,7 @@
 //  ListingCellView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 04/08/22.
+//  Created by Niraj on 04/08/22.
 //
 
 import SwiftUI
@@ -24,7 +24,7 @@ struct ProductItemView: View {
                         .frame(height: 25, alignment: .center)
 
                     ListingOfferView(product: product)
-                        .offset(x: -65, y: 87)
+                        .offset(x: -60, y: 87)
                 } //: ZStack
 
                 //Name
@@ -42,6 +42,8 @@ struct ProductItemView: View {
                 ListingRatingView(product: product)
                 
                 Spacer()
+                
+                // Add to cart Button
                 ListingAddToCartView()
                     .padding(.bottom, 20)
                 

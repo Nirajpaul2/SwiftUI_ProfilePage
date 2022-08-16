@@ -10,7 +10,7 @@
 		E2481FCA28A3CAE8001250EB /* TopNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2481FC928A3CAE8001250EB /* TopNavView.swift */; };
 		E2481FCF28A3D740001250EB /* AdAndLogoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2481FCE28A3D740001250EB /* AdAndLogoDetailView.swift */; };
 		E25BD3002893971B0079C016 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25BD2FF2893971B0079C016 /* LoginButton.swift */; };
-		E25CE98F28A51F2100ED5C91 /* ActivityIndi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CE98E28A51F2100ED5C91 /* ActivityIndi.swift */; };
+		E25CE98F28A51F2100ED5C91 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CE98E28A51F2100ED5C91 /* UIViewRepresentable.swift */; };
 		E25CE99328A523BB00ED5C91 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CE99228A523BB00ED5C91 /* CustomView.swift */; };
 		E25CE99528A523C700ED5C91 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25CE99428A523C700ED5C91 /* CustomView.xib */; };
 		E27894C428A2321000E23463 /* PriceAndDiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27894C328A2321000E23463 /* PriceAndDiscountView.swift */; };
@@ -45,7 +45,7 @@
 		E2481FC928A3CAE8001250EB /* TopNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavView.swift; sourceTree = "<group>"; };
 		E2481FCE28A3D740001250EB /* AdAndLogoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdAndLogoDetailView.swift; sourceTree = "<group>"; };
 		E25BD2FF2893971B0079C016 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
-		E25CE98E28A51F2100ED5C91 /* ActivityIndi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndi.swift; sourceTree = "<group>"; };
+		E25CE98E28A51F2100ED5C91 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
 		E25CE99228A523BB00ED5C91 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		E25CE99428A523C700ED5C91 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		E27894C328A2321000E23463 /* PriceAndDiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceAndDiscountView.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		E25CE98D28A51F0900ED5C91 /* SwiftClass */ = {
 			isa = PBXGroup;
 			children = (
-				E25CE98E28A51F2100ED5C91 /* ActivityIndi.swift */,
+				E25CE98E28A51F2100ED5C91 /* UIViewRepresentable.swift */,
 				E25CE99428A523C700ED5C91 /* CustomView.xib */,
 				E25CE99228A523BB00ED5C91 /* CustomView.swift */,
 			);
@@ -305,7 +305,7 @@
 				E2795251289905DE00DC9DD8 /* CommonTopNavigationBar.swift in Sources */,
 				E2EED1A1289BFAD800BB488C /* CodableBundleExtension.swift in Sources */,
 				E2795258289999A800DC9DD8 /* UserProfileModel.swift in Sources */,
-				E25CE98F28A51F2100ED5C91 /* ActivityIndi.swift in Sources */,
+				E25CE98F28A51F2100ED5C91 /* UIViewRepresentable.swift in Sources */,
 				E25CE99328A523BB00ED5C91 /* CustomView.swift in Sources */,
 				E281AA9428A0D16D009E78F7 /* ConstantForSwiftUII.swift in Sources */,
 				E2481FCF28A3D740001250EB /* AdAndLogoDetailView.swift in Sources */,

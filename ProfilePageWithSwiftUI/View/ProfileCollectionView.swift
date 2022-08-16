@@ -2,7 +2,7 @@
 //  ProfileCollectionView.swift
 //  ProfilePageWithSwiftUI
 //
-//  Created by Purplle on 02/08/22.
+//  Created by Niraj on 02/08/22.
 //
 
 import SwiftUI
